@@ -1,0 +1,36 @@
+{
+  "name": "cattle-breed-recognition",
+  "version": "1.0.0",
+  "description": "AI-powered cattle and buffalo breed recognition for Bharat Pashudhan App",
+  "main": "index.js",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    },
+    "homepage": "https://shlokdeota06.github.io/pashuai"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^4.1.0"
+  },
+  "keywords": [
+    "cattle",
+    "breed",
+    "recognition",
+    "ai",
+    "bharat-pashudhan"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
